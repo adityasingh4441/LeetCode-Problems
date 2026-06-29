@@ -1,17 +1,19 @@
 class Solution {
     public int missingNumber(int[] nums) {
-        int ans = 0;
-        int n = nums.length;
         Arrays.sort(nums);
-        int sum = 0;
-        for(int i = 0; i <= n; i++){
-            sum += i;
-        }
-
-        for(int i = 0; i < n; i++){
-            sum -= nums[i];
+        
+        int left = 0;
+        int right = nums.length;
+        
+        while (left < right) {
+            int mid = left + (right - left) / 2;
             
+            if (nums[mid] == mid) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
         }
-        return sum;
+        return left;
     }
 }
