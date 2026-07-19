@@ -12,11 +12,16 @@ This repository contains all my solved LeetCode problems.
 
 - LeetCode
 
-## Goal
+## 🎯 Goals
 
-- Solve 500+ Problems
-- Improve DSA
-- Crack Product-Based Companies
+- 🚀 Solve **1000+ LeetCode Problems**
+- 🧠 Master **Data Structures & Algorithms**
+- 💻 Strengthen Problem-Solving & Logical Thinking
+- ⚡ Build Strong Coding Interview Skills
+- 🏆 Achieve a **LeetCode Knight** Rating
+- 📈 Maintain a Consistent Daily Coding Streak
+- 🌟 Become Interview-Ready for Top Product-Based Companies
+- 💼 Land a Software Engineer Role at Companies like Google, Microsoft, Amazon, Adobe, Atlassian, and Uber
 # Heading
 
 *Java*
