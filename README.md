@@ -173,19 +173,6 @@ Each file is named as `<ProblemNumber>_<Problem_Title>.java` and lives inside it
 
 ---
 
-## 🔄 Updating the Charts
-
-The analytics charts are generated with a small Python script so they stay accurate as your solved-problem count grows.
-
-1. Update the counts in `topic_data.json`
-2. Run:
-   ```bash
-   python3 scripts/generate_charts.py
-   ```
-3. Commit the refreshed images in `images/`
-
----
-
 ## 🧰 Tech Stack
 
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
