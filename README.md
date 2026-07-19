@@ -106,6 +106,15 @@ Welcome
 
 ## 🏆 Difficulty Distribution
 
+topics = {
+    "Array": 35,
+    "String": 20,
+    "Tree": 15,
+    "Graph": 10,
+    "DP": 12,
+    "Stack": 8
+}
+
 <p align="center">
 
 <img src="images/difficulty-chart.png" width="350"/>
