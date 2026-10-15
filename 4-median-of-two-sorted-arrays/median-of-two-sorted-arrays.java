@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n = nums1.length;
@@ -21,8 +19,8 @@ class Solution {
         if (total % 2 == 1) {
             return (double) merged[total / 2];
         } else {
-            int middle1 = merged[total / 2 - 1];
-            int middle2 = merged[total / 2];
+            int middle1 = merged[total / 2];
+            int middle2 = merged[total / 2 - 1];
             return ((double) middle1 + (double) middle2) / 2.0;
         }
     }
